@@ -18,3 +18,17 @@ h5 {
     background-color:lightgreen ;
     color:blue;
 }
+
+
+table{border: 1px solid black;
+padding: 5px;
+margin: 20px;
+}
+
+table.collapsing{
+    border-collapse : collapse;}
+
+
+td,th{border: solid 1px;
+text-align: center;}
+tr:nth-child(odd){background-color: turquoise;}
