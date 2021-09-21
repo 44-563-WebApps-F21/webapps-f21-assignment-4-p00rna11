@@ -1,18 +1,32 @@
 #speech{
     color:black;
-font-size: 15px;
-font-family: sans-serif;}
-
-h5 {
-    font-size: 16px;
-    color: cadetblue;
-}
+    font-size: 15px;
+    font-family: sans-serif;}
 
 #StageDirection{
-    background-color:lightseagreen ;
+    background-color:rgb(173, 197, 196) ;
     color:black;
     font-size: 15px;
     font-family:sans-serif;
+}
+
+.LADYCAROLINE{
+    font-size: 16px;
+    font-family: sans-serif;
+    color:rgb(24, 129, 20);
+    
+}
+
+.HESTER{
+    font-size: 16px;
+    font-family: sans-serif;
+    color:rgb(136, 185, 72);
+}
+
+.SIRJOHN{
+    font-size: 16px;
+    font-family: sans-serif;;
+    color:rgb(46, 109, 98);
 }
 
 #StageDirection:hover{
@@ -20,16 +34,26 @@ h5 {
     color:blue;
 }
 
+table,td,th{
+    border: 1px solid black;
+    width: 40%;
+    padding: 5px;
+    margin: 20px;
+    color: rgb(39, 92, 5);
+    text-align: center;
+    border: solid 1px;}
 
-table{border: 1px solid black;
-padding: 5px;
-margin: 20px;
+
+ tr:nth-child(even){background-color: aqua;}
+
+
+ .LADYCAROLINE:hover{
+     background-color: rgb(250, 216, 216);
+     border-top: 3px solid rgb(117, 117, 161);
+     border-left: 3px dashed rgb(126, 196, 109);
+     border-right: 3px dashed rgb(136, 202, 128);
+     border-bottom: 3px solid rgb(117, 117, 161);
+     padding: 3px;
+     color: transparent;
+    text-shadow: 0 0 3px rgb(55, 151, 26);   
 }
-
-table.collapsing{
-    border-collapse : collapse;}
-
-
-td,th{border: solid 1px;
-text-align: center;}
-tr:nth-child(odd){background-color: turquoise;}
